@@ -2,6 +2,8 @@
 A neural network class made without any external libraries. In this particular example, it is being used to solve XOR represented on a grid. 
 It consists of 2 input nodes, 4 hidden nodes, 1 output node, and it uses the sigmoid activation function (with options for tanh and ReLU within the class).
 
+https://noahprero.com/xor_nn
+
 # Usage
 The class includes 2 functions to use with the neural network:
 ```JavaScript
