@@ -3,13 +3,18 @@ A neural network class made without any external libraries. In this particular e
 It consists of 2 input nodes, 4 hidden nodes, 1 output node, and it uses the sigmoid activation function (with options for tanh and ReLU within the class).
 
 # Usage
-The class includes 2 functions for training the data:
-```
-nn = new NeuralNetwork(2, 2, 1)  // Creates a neural network with 2 inputs, 2 hidden, and 1 output
+The class includes 2 functions to use with the neural network:
+```JavaScript
+// Create a neural network with 2 inputs, 2 hidden, and 1 output
+nn = new NeuralNetwork(2, 2, 1)  
 
-nn.train(inputs, desired_outputs)  // Adjusts the weights and biases based off of the passed input array and desired result array
+// Adjusts the weights and biases based off of 
+// the passed input array and desired result array
+nn.train(inputs, desired_outputs)  
 
-nn.predict(inputs)  // Takes an input array and predicts the value with the current weights and biases of the network and returns the output
+// Takes an input array and predicts the value with the
+// current weights and biases of the network and returns the output
+nn.predict(inputs)  
 ```
 
 ![XOR Neural Network](nn.gif)
